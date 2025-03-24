@@ -22,4 +22,18 @@ The system consists of multiple agents:
 ### **Step 1: Clone the Repository**
 ```bash
 git clone https://github.com/your-username/Multi-Agent-SEO-Blog-Generator.git
-cd Multi-Agent-SEO-Blog-Generator
+cd Multi-Agent-SEO-Blog-Generator 
+
+Step 2: Set Up the Virtual Environment
+python -m venv venv
+source venv/bin/activate  # (Mac/Linux)
+venv\Scripts\activate  # (Windows)
+
+Step 3: Install Dependencies
+pip install -r requirements.txt
+
+Step 4: Pull the Required LLM Model
+ollama pull mistral
+
+Step 5: Run the Script
+python multi_agent_seo_blog.py
