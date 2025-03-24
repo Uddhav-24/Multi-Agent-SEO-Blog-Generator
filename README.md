@@ -59,10 +59,10 @@ python multi_agent_seo_blog.py
 
 The generated blog post will be saved as:
 
-Markdown (.md)
-HTML (.html)
-PDF (.pdf)
-TXT (.txt)
+1. Markdown (.md)
+2. HTML (.html)
+3. PDF (.pdf)
+4. TXT (.txt)
 
 📌 Notes
 
