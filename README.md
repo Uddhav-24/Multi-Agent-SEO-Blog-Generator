@@ -60,16 +60,12 @@ python multi_agent_seo_blog.py
 The generated blog post will be saved as:
 
 Markdown (.md)
-
 HTML (.html)
-
 PDF (.pdf)
-
 TXT (.txt)
 
 📌 Notes
-Ensure Ollama is installed and running before executing the script.
 
-The script fetches live HR topics, so results may vary.
-
-If no topics are found, default HR topics are used.
+1. Ensure Ollama is installed and running before executing the script.
+2. The script fetches live HR topics, so results may vary.
+3. If no topics are found, default HR topics are used.
